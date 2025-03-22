@@ -2,8 +2,8 @@ import streamlit as st
 import openai
 import os
 import json
-from langchain.vectorstores import FAISS
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.docstore.document import Document
 from dotenv import load_dotenv
 from pathlib import Path
